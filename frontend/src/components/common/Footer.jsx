@@ -161,12 +161,26 @@ export default function Footer() {
         </div>
 
         {/* Bottom bar */}
-        <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-400">
-          <p>© {new Date().getFullYear()} Mr. Office. All rights reserved. Agra, Uttar Pradesh, India.</p>
+        <div className="pt-8 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-slate-400 border-t border-slate-800">
+          <div className="flex flex-col sm:flex-row items-center gap-2 text-center sm:text-left">
+            <p>© {new Date().getFullYear()} Mr. Office. All rights reserved. Agra, Uttar Pradesh, India.</p>
+            <span className="hidden sm:inline text-slate-600">•</span>
+            <p>
+              Developed by{" "}
+              <a
+                href="https://shivam-srivastava-portfolio.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white hover:text-brand-red font-semibold transition-colors underline decoration-slate-600 hover:decoration-brand-red underline-offset-4"
+              >
+                shivamsrivastava.dev
+              </a>
+            </p>
+          </div>
           <div className="flex items-center gap-6">
-            <span>Primary Focus: Office • School • Study Furniture</span>
-            <Link to="/admin/login" className="hover:text-white transition flex items-center gap-1">
-              <ShieldCheck className="w-3.5 h-3.5" />
+            <span className="hidden lg:inline text-slate-400">Primary Focus: Office • School • Study Furniture</span>
+            <Link to="/admin/login" className="hover:text-white transition flex items-center gap-1 text-slate-400 hover:text-slate-200">
+              <ShieldCheck className="w-3.5 h-3.5 text-red-400" />
               <span>Admin Portal</span>
             </Link>
           </div>
