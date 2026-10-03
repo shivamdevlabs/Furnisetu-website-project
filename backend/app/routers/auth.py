@@ -1,8 +1,9 @@
 from datetime import datetime, timezone
-from fastapi import APIRouter, Depends, HTTPException, status
+from fastapi import APIRouter, Depends, HTTPException, Request, status
 from motor.motor_asyncio import AsyncIOMotorDatabase
 from app.core.config import settings
 from app.core.security import create_access_token, hash_password, verify_password
+from app.core.rate_limiter import login_rate_limiter
 from app.dependencies.database import get_db
 from app.dependencies.auth import get_current_user
 from app.schemas.auth import Token, UserLogin, UserResponse
@@ -11,10 +12,11 @@ router = APIRouter(prefix="/api/auth", tags=["Authentication"])
 
 
 @router.post("/login", response_model=Token)
-async def login(credentials: UserLogin, db: AsyncIOMotorDatabase = Depends(get_db)):
+async def login(request: Request, credentials: UserLogin, db: AsyncIOMotorDatabase = Depends(get_db)):
     """
-    Authenticate admin credentials and issue a signed JWT Bearer token.
+    Authenticate admin credentials and issue a signed JWT Bearer token with brute-force rate limit protection.
     """
+    login_rate_limiter.check_rate_limit(request)
     email = credentials.email.lower().strip()
     user = await db.users.find_one({"email": email})
 

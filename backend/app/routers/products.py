@@ -20,8 +20,9 @@ def generate_slug(name: str) -> str:
 
 
 def format_product_doc(doc: dict) -> dict:
-    """Transform MongoDB document into serializable product dictionary."""
-    doc["id"] = str(doc["_id"])
+    """Transform MongoDB document into serializable product dictionary by converting _id to id string."""
+    if "_id" in doc:
+        doc["id"] = str(doc.pop("_id"))
     return doc
 
 

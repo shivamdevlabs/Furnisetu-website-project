@@ -2,8 +2,9 @@ import re
 from datetime import datetime, timezone
 from typing import Optional
 from bson import ObjectId
-from fastapi import APIRouter, Depends, HTTPException, Query, status
+from fastapi import APIRouter, Depends, HTTPException, Query, Request, status
 from motor.motor_asyncio import AsyncIOMotorDatabase
+from app.core.rate_limiter import enquiry_rate_limiter
 from app.dependencies.database import get_db
 from app.dependencies.auth import require_admin
 from app.schemas.enquiry import EnquiryCreate, EnquiryResponse, EnquiryUpdateStatus
@@ -12,20 +13,23 @@ router = APIRouter(prefix="/api/enquiries", tags=["Enquiries"])
 
 
 def format_enquiry_doc(doc: dict) -> dict:
-    """Format MongoDB document into enquiry response."""
-    doc["id"] = str(doc["_id"])
+    """Format MongoDB document into enquiry response by converting _id to id string."""
+    if "_id" in doc:
+        doc["id"] = str(doc.pop("_id"))
     return doc
 
 
 @router.post("", response_model=dict, status_code=status.HTTP_201_CREATED)
 async def submit_enquiry(
+    request: Request,
     payload: EnquiryCreate,
     db: AsyncIOMotorDatabase = Depends(get_db)
 ):
     """
     Public endpoint: Customer submits a furniture enquiry or quote request.
-    Validates input cleanly and safely saves to database.
+    Validates input cleanly and safely saves to database with abuse protection.
     """
+    enquiry_rate_limiter.check_rate_limit(request)
     # Sanitize and validate phone
     cleaned_phone = re.sub(r"[^\d+]", "", payload.phone)
     if len(cleaned_phone) < 10:
