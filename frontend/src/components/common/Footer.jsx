@@ -173,7 +173,7 @@ export default function Footer() {
                 rel="noopener noreferrer"
                 className="text-white hover:text-brand-red font-semibold transition-colors underline decoration-slate-600 hover:decoration-brand-red underline-offset-4"
               >
-                shivamsrivastava.dev
+                Shivam Srivastava
               </a>
             </p>
           </div>
