@@ -14,7 +14,7 @@ def test_config():
     print(f"       - Business Name: {settings.BUSINESS_NAME}")
     print(f"       - City: {settings.BUSINESS_CITY}")
     print(f"       - CORS Origins: {settings.CORS_ORIGINS}")
-    assert settings.BUSINESS_NAME == "Mr. Office"
+    assert settings.BUSINESS_NAME == "FURNISETU"
 
 
 def test_security():

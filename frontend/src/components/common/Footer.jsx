@@ -16,18 +16,8 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 pb-12 border-b border-slate-800">
           {/* Brand Col */}
           <div className="lg:col-span-2 space-y-4">
-            <Link to="/" className="flex items-center gap-3">
-              <div className="p-1.5 bg-white rounded-lg inline-block">
-                <img src={logo} alt="Mr. Office Logo" className="h-10 w-auto object-contain" />
-              </div>
-              <div className="flex flex-col">
-                <span className="text-xl font-black tracking-tight text-white leading-none">
-                  MR. <span className="text-brand-red">OFFICE</span>
-                </span>
-                <span className="text-xs font-semibold text-slate-400 uppercase tracking-widest mt-0.5">
-                  Agra, Uttar Pradesh
-                </span>
-              </div>
+            <Link to="/" className="inline-block bg-white p-2.5 rounded-xl shadow-xs hover:opacity-95 transition">
+              <img src={logo} alt="FURNISETU Furniture Agra" className="h-10 w-auto object-contain" />
             </Link>
 
             <p className="text-sm text-slate-400 leading-relaxed max-w-sm">
@@ -41,7 +31,7 @@ export default function Footer() {
 
             <div className="flex items-center gap-3 pt-2">
               <a
-                href={`https://wa.me/${cleanWhatsapp}?text=Hello%20Mr.%20Office,%20I%20would%20like%20to%20enquire%20about%20furniture%20in%20Agra`}
+                href={`https://wa.me/${cleanWhatsapp}?text=Hello%20FURNISETU,%20I%20would%20like%20to%20enquire%20about%20furniture%20in%20Agra`}
                 target="_blank"
                 rel="noreferrer"
                 className="px-3.5 py-2 rounded-lg bg-emerald-600/20 text-emerald-400 border border-emerald-500/30 text-xs font-semibold flex items-center gap-2 hover:bg-emerald-600/30 transition"
@@ -75,7 +65,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link to="/about" className="hover:text-white transition flex items-center gap-1.5">
-                  <ChevronRight className="w-3.5 h-3.5 text-brand-red" /> About Mr. Office
+                  <ChevronRight className="w-3.5 h-3.5 text-brand-red" /> About FURNISETU
                 </Link>
               </li>
               <li>
@@ -163,7 +153,7 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="pt-8 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-slate-400 border-t border-slate-800">
           <div className="flex flex-col sm:flex-row items-center gap-2 text-center sm:text-left">
-            <p>© {new Date().getFullYear()} Mr. Office. All rights reserved. Agra, Uttar Pradesh, India.</p>
+            <p>© {new Date().getFullYear()} FURNISETU. All rights reserved. Agra, Uttar Pradesh, India.</p>
             <span className="hidden sm:inline text-slate-600">•</span>
             <p>
               Developed by{" "}

@@ -214,7 +214,7 @@ export default function Products() {
           <Layers className="w-12 h-12 text-slate-400 mx-auto" />
           <h3 className="text-lg font-bold text-slate-800">No matching products found</h3>
           <p className="text-xs sm:text-sm text-slate-500 max-w-sm mx-auto">
-            We couldn't find products matching your filters. Mr. Office can arrange custom designs directly from manufacturers.
+            We couldn't find products matching your filters. FURNISETU can arrange custom designs directly from manufacturers.
           </p>
           <div className="pt-2 flex items-center justify-center gap-3">
             <button
@@ -236,7 +236,7 @@ export default function Products() {
         <div>
           <h3 className="text-lg font-bold">Don't see your exact layout or dimensions?</h3>
           <p className="text-xs sm:text-sm text-slate-300 mt-1 max-w-xl">
-            Because Mr. Office works on an order-based model, we can arrange custom office clusters, specialized classroom benches, and tailor-made study desks directly from our manufacturing partners.
+            Because FURNISETU works on an order-based model, we can arrange custom office clusters, specialized classroom benches, and tailor-made study desks directly from our manufacturing partners.
           </p>
         </div>
         <button

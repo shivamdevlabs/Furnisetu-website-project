@@ -84,7 +84,7 @@ export default function Contact() {
             <span>Agra Operations & Consultation</span>
           </div>
           <h1 className="text-3xl sm:text-5xl font-black tracking-tight text-white drop-shadow-xs">
-            Contact Mr. Office
+            Contact FURNISETU
           </h1>
           <p className="text-base sm:text-lg text-slate-200 max-w-xl mx-auto">
             Discuss your furniture requirements, ask questions, or request an itemized quotation for your space in Agra.
@@ -353,7 +353,7 @@ export default function Contact() {
                   ) : (
                     <>
                       <Send className="w-4 h-4" />
-                      Submit Enquiry to Mr. Office
+                      Submit Enquiry to FURNISETU
                     </>
                   )}
                 </button>
@@ -374,7 +374,7 @@ export default function Contact() {
               </p>
             </div>
             <a
-              href={`https://wa.me/${cleanWhatsapp}?text=Hello%20Mr.%20Office,%20I%20would%20like%20to%20request%20a%20site%20visit%20or%20meeting%20in%20Agra.`}
+              href={`https://wa.me/${cleanWhatsapp}?text=Hello%20FURNISETU,%20I%20would%20like%20to%20request%20a%20site%20visit%20or%20meeting%20in%20Agra.`}
               target="_blank"
               rel="noreferrer"
               className="px-4 py-2 rounded-xl bg-white border border-slate-300 text-slate-800 text-xs font-bold hover:bg-slate-50 transition"
@@ -387,7 +387,7 @@ export default function Contact() {
           <div className="w-full h-64 bg-slate-200/80 rounded-2xl border border-slate-300/80 relative flex items-center justify-center overflow-hidden">
             <div className="text-center space-y-2 p-6 z-10 bg-white/85 backdrop-blur-xs rounded-2xl shadow-sm border border-slate-200">
               <MapPin className="w-8 h-8 text-brand-red mx-auto animate-bounce" />
-              <h4 className="text-sm font-bold text-slate-900">Mr. Office — Agra Hub</h4>
+              <h4 className="text-sm font-bold text-slate-900">FURNISETU — Agra Hub</h4>
               <p className="text-xs text-slate-500 max-w-xs">
                 {settings.address || "Agra, Uttar Pradesh, India"}
               </p>

@@ -8,10 +8,10 @@ export default {
     extend: {
       colors: {
         brand: {
-          red: "#D32F2F",       // Mr. Office brand red
+          red: "#D32F2F",       // FURNISETU brand red
           redDark: "#B71C1C",
           redLight: "#FFEBEE",
-          navy: "#1E295A",      // Mr. Office brand navy
+          navy: "#1E295A",      // FURNISETU brand navy
           navyDark: "#0F172A",
           navyLight: "#F0F3FA",
         },

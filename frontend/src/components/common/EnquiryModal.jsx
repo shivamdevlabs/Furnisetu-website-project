@@ -32,8 +32,8 @@ export default function EnquiryModal() {
         quantity: 1,
         city: 'Agra',
         message: enquiryModalData.productName
-          ? `Hello Mr. Office, I would like to enquire about "${enquiryModalData.productName}". Please provide availability and a price quote for Agra delivery.`
-          : 'Hello Mr. Office, I have a requirement for furniture for my office/school/study in Agra. Please get in touch.'
+          ? `Hello FURNISETU, I would like to enquire about "${enquiryModalData.productName}". Please provide availability and a price quote for Agra delivery.`
+          : 'Hello FURNISETU, I have a requirement for furniture for my office/school/study in Agra. Please get in touch.'
       });
       setSuccessResponse(null);
       setErrorMessage('');
@@ -79,7 +79,7 @@ export default function EnquiryModal() {
         <div className="bg-brand-navyDark px-6 py-4 flex items-center justify-between text-white">
           <div>
             <h3 className="text-lg font-bold">Request a Quote / Enquire</h3>
-            <p className="text-xs text-slate-300">Mr. Office • Agra, Uttar Pradesh</p>
+            <p className="text-xs text-slate-300">FURNISETU • Agra, Uttar Pradesh</p>
           </div>
           <button
             type="button"
@@ -100,7 +100,7 @@ export default function EnquiryModal() {
               </div>
               <h4 className="text-xl font-bold text-slate-900">Enquiry Received!</h4>
               <p className="text-sm text-slate-600 max-w-sm mx-auto leading-relaxed">
-                {successResponse.message || "Thank you for reaching out to Mr. Office. Our Agra team will review your requirements and contact you shortly."}
+                {successResponse.message || "Thank you for reaching out to FURNISETU. Our Agra team will review your requirements and contact you shortly."}
               </p>
               <div className="p-3 bg-slate-50 rounded-xl border border-slate-200 text-xs text-slate-500">
                 Reference ID: <span className="font-mono font-semibold text-slate-700">{successResponse.enquiry_reference}</span>
@@ -251,7 +251,7 @@ export default function EnquiryModal() {
               </div>
 
               <p className="text-[11px] text-slate-400 text-center leading-normal">
-                Mr. Office coordinates directly with quality furniture manufacturers to supply order-based furniture in Agra.
+                FURNISETU coordinates directly with quality furniture manufacturers to supply order-based furniture in Agra.
               </p>
             </form>
           )}

@@ -7,11 +7,11 @@ export default function AdminSettings() {
   const { settings: globalSettings, setSettings: setGlobalSettings } = useApp();
 
   const [formData, setFormData] = useState({
-    business_name: 'Mr. Office',
+    business_name: 'FURNISETU',
     tagline: 'Office, School & Study Furniture Specialists in Agra',
     phone: '+91 98765 43210',
     whatsapp: '+91 98765 43210',
-    email: 'contact@mroffice.in',
+    email: 'contact@furnisetu.in',
     address: 'Agra, Uttar Pradesh, India',
     business_hours: 'Monday – Saturday: 10:00 AM – 8:00 PM',
     google_maps_embed_url: '',

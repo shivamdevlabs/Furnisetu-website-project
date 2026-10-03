@@ -38,8 +38,8 @@ async def lifespan(app: FastAPI):
 
 
 app = FastAPI(
-    title="Mr. Office API",
-    description="Full-stack Furniture Business Platform API for Mr. Office (Agra, UP)",
+    title="FURNISETU API",
+    description="Full-stack Furniture Business Platform API for FURNISETU (Agra, UP)",
     version="1.0.0",
     docs_url="/api/docs" if settings.DEBUG else None,
     redoc_url="/api/redoc" if settings.DEBUG else None,

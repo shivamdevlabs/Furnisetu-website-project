@@ -55,12 +55,12 @@ export default function AdminLayout() {
           {/* Brand header */}
           <div className="h-20 px-6 flex items-center justify-between border-b border-slate-800">
             <Link to="/admin/dashboard" className="flex items-center gap-3">
-              <div className="p-1 bg-white rounded-lg">
-                <img src={logo} alt="Mr. Office Logo" className="h-8 w-auto object-contain" />
+              <div className="p-1.5 bg-white rounded-lg">
+                <img src={logo} alt="FURNISETU Logo" className="h-8 w-auto object-contain" />
               </div>
               <div className="flex flex-col">
                 <span className="text-sm font-black text-white leading-none">
-                  MR. <span className="text-brand-red">OFFICE</span>
+                  FURNI<span className="text-brand-red">SETU</span>
                 </span>
                 <span className="text-[10px] font-semibold text-slate-400 uppercase tracking-widest mt-0.5">
                   Admin Portal

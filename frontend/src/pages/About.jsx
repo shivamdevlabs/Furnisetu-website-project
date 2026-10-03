@@ -28,7 +28,7 @@ export default function About() {
             <span>Agra, Uttar Pradesh, India</span>
           </div>
           <h1 className="text-3xl sm:text-5xl font-black tracking-tight text-white drop-shadow-xs">
-            About Mr. Office
+            About FURNISETU
           </h1>
           <p className="text-base sm:text-lg text-slate-200 max-w-2xl mx-auto leading-relaxed">
             Professional furniture supply for commercial offices, schools, colleges, and dedicated study spaces in Agra.
@@ -47,10 +47,10 @@ export default function About() {
               Specialized Furniture Supply Built on Real Customer Requirements
             </h2>
             <p className="text-sm sm:text-base text-slate-600 leading-relaxed">
-              <strong>Mr. Office</strong> is an Agra-based furniture enterprise dedicated to solving furniture requirements for businesses, institutions, and home study rooms.
+              <strong>FURNISETU</strong> is an Agra-based furniture enterprise dedicated to solving furniture requirements for businesses, institutions, and home study rooms.
             </p>
             <p className="text-sm sm:text-base text-slate-600 leading-relaxed">
-              Unlike generic retail showrooms that offer limited, pre-set catalog items with high overhead costs, Mr. Office operates on an <strong>order-based business model</strong>. Customers discuss their specific floor plan, quantity, and aesthetic preferences with us, and we coordinate directly with quality manufacturers to deliver custom-suited furniture.
+              Unlike generic retail showrooms that offer limited, pre-set catalog items with high overhead costs, FURNISETU operates on an <strong>order-based business model</strong>. Customers discuss their specific floor plan, quantity, and aesthetic preferences with us, and we coordinate directly with quality manufacturers to deliver custom-suited furniture.
             </p>
             <div className="pt-2">
               <button
@@ -111,7 +111,7 @@ export default function About() {
               Comprehensive Supply
             </span>
             <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900">
-              What Mr. Office Supplies
+              What FURNISETU Supplies
             </h2>
             <p className="text-sm text-slate-600">
               Our core focus is commercial workspaces, educational institutes, and dedicated study setups.
@@ -197,7 +197,7 @@ export default function About() {
               Service Area & Order Fulfillment
             </h2>
             <p className="text-sm sm:text-base text-slate-600 leading-relaxed">
-              Mr. Office primarily serves <strong>Agra, Uttar Pradesh</strong> and surrounding districts (such as Mathura, Firozabad, and neighboring regions).
+              FURNISETU primarily serves <strong>Agra, Uttar Pradesh</strong> and surrounding districts (such as Mathura, Firozabad, and neighboring regions).
             </p>
           </div>
 
@@ -205,7 +205,7 @@ export default function About() {
             <div className="space-y-3">
               <h3 className="text-base font-bold text-slate-900 flex items-center gap-2">
                 <Handshake className="w-5 h-5 text-brand-navy" />
-                Why Contact Mr. Office?
+                Why Contact FURNISETU?
               </h3>
               <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
                 If you are planning a new office setup, upgrading a school classroom, or outfitting an institutional premises, you do not have to settle for standard sizes that waste floor area. We help you choose exact dimensions, materials, and quantities directly from manufacturers at reasonable pricing.
@@ -224,7 +224,7 @@ export default function About() {
           </div>
 
           <div className="p-4 bg-slate-50 rounded-2xl border border-slate-200 text-xs text-slate-500 leading-relaxed">
-            <strong>Note for clients & visitors:</strong> Mr. Office operates on an order-based supply model. Photographs and specifications on this website illustrate typical manufacturing models. Exact colors, veneers, and sizes can be tailored during your consultation.
+            <strong>Note for clients & visitors:</strong> FURNISETU operates on an order-based supply model. Photographs and specifications on this website illustrate typical manufacturing models. Exact colors, veneers, and sizes can be tailored during your consultation.
           </div>
         </div>
       </section>
@@ -234,7 +234,7 @@ export default function About() {
         <div className="p-8 sm:p-10 rounded-3xl bg-brand-navy text-white space-y-4">
           <h2 className="text-2xl font-bold">Ready to Discuss Your Furniture Project?</h2>
           <p className="text-xs sm:text-sm text-slate-300 max-w-lg mx-auto">
-            Contact Mr. Office in Agra to schedule a discussion or obtain a free itemized quote for your space.
+            Contact FURNISETU in Agra to schedule a discussion or obtain a free itemized quote for your space.
           </p>
           <div className="pt-2 flex items-center justify-center gap-4">
             <button

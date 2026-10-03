@@ -92,7 +92,7 @@ export default function AdminDashboard() {
             Operational Overview
           </span>
           <h2 className="text-2xl font-black text-slate-900 mt-1">
-            Mr. Office Business Control Center
+            FURNISETU Business Control Center
           </h2>
           <p className="text-xs sm:text-sm text-slate-500 mt-1">
             Manage your furniture catalog, respond to incoming customer leads, and update Agra business settings.

@@ -1,8 +1,8 @@
-# Mr. Office — Full-Stack Furniture Business Platform
+# FURNISETU — Full-Stack Furniture Business Platform
 
-A modern, production-grade full-stack web platform built for **Mr. Office**, a premier furniture business located in **Agra, Uttar Pradesh, India**.
+A modern, production-grade full-stack web platform built for **FURNISETU**, a premier furniture business located in **Agra, Uttar Pradesh, India**.
 
-Mr. Office specializes in order-based furniture procurement and supply, primarily focused on:
+FURNISETU specializes in order-based furniture procurement and supply, primarily focused on:
 - **Office Furniture** (Workstations, Executive Desks, Conference Tables, Ergonomic Chairs, Storage)
 - **School & Classroom Furniture** (Student Desks & Benches, Teacher Tables, Storage)
 - **Study Furniture** (Study Desks, Ergonomic Study Chairs, Modular Bookcases)
@@ -14,7 +14,7 @@ Mr. Office specializes in order-based furniture procurement and supply, primaril
 
 ### Frontend
 - **Framework:** React.js 19 (Vite 8)
-- **Styling:** Tailwind CSS v4 (with official Mr. Office brand color palette)
+- **Styling:** Tailwind CSS v4 (with official FURNISETU brand color palette)
 - **Routing:** React Router v7
 - **HTTP Client:** Axios with JWT request & response interceptors
 - **Icons:** Lucide React
@@ -52,7 +52,7 @@ mr-office/
 ├── frontend/
 │   ├── public/             # Static assets (including brand logo)
 │   ├── src/
-│   │   ├── assets/         # Mr. Office official brand assets
+│   │   ├── assets/         # FURNISETU official brand assets
 │   │   ├── components/     # Reusable UI components
 │   │   ├── layouts/        # Public and Admin layouts
 │   │   ├── pages/          # Home, About, Products, Details, Contact, Admin
@@ -156,4 +156,4 @@ Frontend will be running at: `http://localhost:5173`
 ## Developer Credit
 - **Developed by:** [Shivam Srivastava](https://shivam-srivastava-portfolio.vercel.app/)
 - **Portfolio:** [https://shivam-srivastava-portfolio.vercel.app/](https://shivam-srivastava-portfolio.vercel.app/)
-- **Business:** Mr. Office (Agra, Uttar Pradesh, India)
+- **Business:** FURNISETU (Agra, Uttar Pradesh, India)

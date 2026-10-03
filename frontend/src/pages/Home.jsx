@@ -54,7 +54,7 @@ export default function Home() {
         <div className="absolute inset-0 z-0">
           <img
             src="/images/hero-office.jpg"
-            alt="Mr. Office Executive Furniture in Agra"
+            alt="FURNISETU Executive Furniture in Agra"
             className="w-full h-full object-cover opacity-35 filter brightness-75 scale-105"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-slate-950 via-slate-950/85 to-transparent"></div>
@@ -128,7 +128,7 @@ export default function Home() {
             Furniture Tailored for Productive Spaces
           </h2>
           <p className="text-sm sm:text-base text-slate-600">
-            Mr. Office specializes primarily in commercial, educational, and study room requirements across Agra.
+            FURNISETU specializes primarily in commercial, educational, and study room requirements across Agra.
           </p>
         </div>
 
@@ -302,7 +302,7 @@ export default function Home() {
               Transparent Order-Based Model
             </span>
             <h2 className="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
-              How Mr. Office Works
+              How FURNISETU Works
             </h2>
             <p className="text-sm sm:text-base text-slate-600">
               We eliminate showroom markups by working directly with top manufacturers to fulfill your custom furniture orders.
@@ -317,7 +317,7 @@ export default function Home() {
               </span>
               <h3 className="text-base font-bold text-slate-900">1. Share Requirements</h3>
               <p className="text-xs text-slate-600 mt-2 leading-relaxed">
-                Contact Mr. Office online, by phone, or WhatsApp. Specify dimensions, seating count, preferred materials, and room layout.
+                Contact FURNISETU online, by phone, or WhatsApp. Specify dimensions, seating count, preferred materials, and room layout.
               </p>
             </div>
 
@@ -387,18 +387,18 @@ export default function Home() {
         </div>
       </section>
 
-      {/* 5. WHY CHOOSE MR. OFFICE */}
+      {/* 5. WHY CHOOSE FURNISETU */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6">
         <div className="bg-brand-navy text-white rounded-3xl p-8 sm:p-12 lg:p-16 relative overflow-hidden shadow-card">
           <div className="relative z-10 max-w-3xl space-y-6">
             <span className="text-xs font-bold uppercase tracking-wider text-red-400">
-              Why Choose Mr. Office
+              Why Choose FURNISETU
             </span>
             <h2 className="text-2xl sm:text-4xl font-extrabold leading-tight">
               Dedicated Furniture Sourcing for Agra Businesses & Schools
             </h2>
             <p className="text-slate-300 text-sm sm:text-base leading-relaxed">
-              Instead of being limited to rigid off-the-shelf retail inventory, Mr. Office provides flexibility in sizing, materials, and quantities directly aligned with your space and budget.
+              Instead of being limited to rigid off-the-shelf retail inventory, FURNISETU provides flexibility in sizing, materials, and quantities directly aligned with your space and budget.
             </p>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 pt-4">
@@ -461,7 +461,7 @@ export default function Home() {
             Have an Upcoming Office or Classroom Furniture Requirement?
           </h2>
           <p className="text-sm text-slate-600 max-w-xl mx-auto leading-relaxed">
-            Get in touch with Mr. Office today to discuss configurations, material samples, and customized quotes for your space in Agra.
+            Get in touch with FURNISETU today to discuss configurations, material samples, and customized quotes for your space in Agra.
           </p>
           <div className="pt-2 flex flex-wrap items-center justify-center gap-4">
             <button

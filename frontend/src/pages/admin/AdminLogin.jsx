@@ -63,10 +63,10 @@ export default function AdminLogin() {
     <div className="min-h-screen bg-slate-900 flex flex-col justify-center py-12 sm:px-6 lg:px-8">
       <div className="sm:mx-auto sm:w-full sm:max-w-md text-center space-y-3">
         <Link to="/" className="inline-flex items-center gap-3 p-2 bg-white rounded-2xl shadow-lg">
-          <img src={logo} alt="Mr. Office Logo" className="h-12 w-auto object-contain" />
+          <img src={logo} alt="FURNISETU Logo" className="h-12 w-auto object-contain" />
         </Link>
         <h2 className="text-2xl font-black text-white tracking-tight">
-          Mr. Office Admin Portal
+          FURNISETU Admin Portal
         </h2>
         <p className="text-xs text-slate-400">
           Authorized personnel only • Agra Operations Center

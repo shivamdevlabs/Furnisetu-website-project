@@ -266,11 +266,11 @@ async def seed_database(db=None):
                 "tagline": settings.BUSINESS_TAGLINE,
                 "phone": "+91 98765 43210",
                 "whatsapp": "+91 98765 43210",
-                "email": "contact@mroffice.in",
+                "email": "contact@furnisetu.in",
                 "address": "Agra, Uttar Pradesh, India",
                 "business_hours": "Monday – Saturday: 10:00 AM – 8:00 PM (Sunday by appointment)",
                 "google_maps_embed_url": "",
-                "about_short": "Mr. Office is Agra's premier order-based furniture specialist providing high quality office workstations, school desks, teacher tables, study room setups, and institutional furniture.",
+                "about_short": "FURNISETU is Agra's premier order-based furniture specialist providing high quality office workstations, school desks, teacher tables, study room setups, and institutional furniture.",
                 "hero_headline": "Premium Office, School & Study Furniture in Agra",
                 "hero_subheadline": "Direct order-based supply for offices, educational institutions, study spaces & corporate setups. Custom orders arranged directly from top manufacturers.",
                 "social_links": {

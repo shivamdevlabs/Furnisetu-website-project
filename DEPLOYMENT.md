@@ -1,6 +1,6 @@
-# Production Deployment Guide — Mr. Office
+# Production Deployment Guide — FURNISETU
 
-This document provides complete, production-grade deployment instructions for the **Mr. Office** full-stack furniture business platform.
+This document provides complete, production-grade deployment instructions for the **FURNISETU** full-stack furniture business platform.
 
 ---
 
@@ -8,7 +8,7 @@ This document provides complete, production-grade deployment instructions for th
 
 ```text
 ┌────────────────────────────────────────────────────────────────────────┐
-│                        MR. OFFICE ARCHITECTURE                         │
+│                        FURNISETU ARCHITECTURE                         │
 ├──────────────────────────┬─────────────────────────────────────────────┤
 │   FRONTEND HOSTING       │   BACKEND API HOSTING                       │
 │   • Vercel / Netlify     │   • Render / Railway / Linux VPS            │
@@ -88,7 +88,7 @@ You can deploy the FastAPI backend using **Option A (Render.com - Easiest)** or 
    |---|---|
    | `ENVIRONMENT` | `production` |
    | `DEBUG` | `False` |
-   | `BUSINESS_NAME` | `Mr. Office` |
+   | `BUSINESS_NAME` | `FURNISETU` |
    | `BUSINESS_TAGLINE` | `Professional Furniture Solutions` |
    | `DATABASE_NAME` | `mr_office_db` |
    | `MONGODB_URI` | `mongodb+srv://mroffice_admin:<PASSWORD>@mr-office-cluster.xxxx.mongodb.net/mr_office_db?retryWrites=true&w=majority` |
@@ -141,7 +141,7 @@ If hosting on an AWS EC2, DigitalOcean Droplet, or Linode VPS:
 4. **Create Systemd Service (`/etc/systemd/system/mr-office.service`):**
    ```ini
    [Unit]
-   Description=Mr. Office FastAPI Backend
+   Description=FURNISETU FastAPI Backend
    After=network.target
 
    [Service]

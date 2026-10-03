@@ -50,7 +50,7 @@ async def submit_enquiry(
 
     return {
         "success": True,
-        "message": "Thank you for reaching out to Mr. Office! Our Agra team will contact you shortly.",
+        "message": "Thank you for reaching out to FURNISETU! Our Agra team will contact you shortly.",
         "enquiry_reference": str(res.inserted_id)
     }
 

@@ -47,17 +47,9 @@ export default function Navbar() {
           <Link to="/" className="flex items-center gap-3 group" onClick={closeMenu}>
             <img
               src={logo}
-              alt="Mr. Office Logo"
-              className="h-12 w-auto object-contain transition-transform group-hover:scale-105"
+              alt="FURNISETU Furniture Agra"
+              className="h-10 sm:h-12 w-auto object-contain transition-transform group-hover:scale-105"
             />
-            <div className="flex flex-col">
-              <span className="text-xl font-black tracking-tight text-brand-navy leading-none">
-                MR. <span className="text-brand-red">OFFICE</span>
-              </span>
-              <span className="text-[11px] font-semibold text-slate-500 uppercase tracking-widest mt-0.5">
-                Furniture • Agra
-              </span>
-            </div>
           </Link>
 
           {/* Desktop Nav Links */}
@@ -142,7 +134,7 @@ export default function Navbar() {
                 isActive('/about') ? 'text-brand-red' : 'text-slate-700 hover:text-brand-navy'
               }`}
             >
-              About Mr. Office
+              About FURNISETU
             </Link>
 
             <Link
@@ -158,7 +150,7 @@ export default function Navbar() {
           {/* Desktop Right Actions: Call, WhatsApp, Get Quote */}
           <div className="hidden lg:flex items-center gap-3">
             <a
-              href={`https://wa.me/${cleanWhatsapp}?text=Hello%20Mr.%20Office,%20I%20would%20like%20to%20enquire%20about%20furniture%20in%20Agra`}
+              href={`https://wa.me/${cleanWhatsapp}?text=Hello%20FURNISETU,%20I%20would%20like%20to%20enquire%20about%20furniture%20in%20Agra`}
               target="_blank"
               rel="noreferrer"
               className="p-2.5 rounded-xl border border-emerald-200 text-emerald-700 hover:bg-emerald-50 transition"
@@ -170,7 +162,7 @@ export default function Navbar() {
             <a
               href={`tel:${cleanPhone}`}
               className="p-2.5 rounded-xl border border-slate-200 text-slate-700 hover:bg-slate-50 transition"
-              title="Call Mr. Office"
+              title="Call FURNISETU"
             >
               <Phone className="w-4 h-4" />
             </a>
@@ -259,7 +251,7 @@ export default function Navbar() {
               isActive('/about') ? 'text-brand-red' : 'text-slate-800'
             }`}
           >
-            About Mr. Office
+            About FURNISETU
           </Link>
           <Link
             to="/contact"
@@ -281,7 +273,7 @@ export default function Navbar() {
               Call Now
             </a>
             <a
-              href={`https://wa.me/${cleanWhatsapp}?text=Hello%20Mr.%20Office,%20I%20would%20like%20to%20enquire%20about%20furniture%20in%20Agra`}
+              href={`https://wa.me/${cleanWhatsapp}?text=Hello%20FURNISETU,%20I%20would%20like%20to%20enquire%20about%20furniture%20in%20Agra`}
               target="_blank"
               rel="noreferrer"
               className="flex-1 py-2.5 rounded-xl bg-emerald-600 text-white font-semibold text-xs flex items-center justify-center gap-2"

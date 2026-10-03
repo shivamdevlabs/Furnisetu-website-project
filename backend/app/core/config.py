@@ -43,10 +43,10 @@ class Settings(BaseSettings):
     # Initial Admin Seed
     DEFAULT_ADMIN_EMAIL: str = "admin@mroffice.in"
     DEFAULT_ADMIN_PASSWORD: str = "Admin@MrOffice2025!"
-    DEFAULT_ADMIN_NAME: str = "Mr. Office Admin"
+    DEFAULT_ADMIN_NAME: str = "FURNISETU Admin"
 
     # Business Information Defaults (can be customized via admin settings in database)
-    BUSINESS_NAME: str = "Mr. Office"
+    BUSINESS_NAME: str = "FURNISETU"
     BUSINESS_TAGLINE: str = "Premium Office, School & Study Furniture in Agra"
     BUSINESS_CITY: str = "Agra"
     BUSINESS_STATE: str = "Uttar Pradesh"

@@ -223,7 +223,7 @@ export default function ProductDetail() {
               </span>
             </div>
             <p className="text-xs text-slate-600 leading-relaxed">
-              Because Mr. Office works directly with manufacturers, pricing is calculated transparently based on your quantity, material specification, and Agra delivery requirements.
+              Because FURNISETU works directly with manufacturers, pricing is calculated transparently based on your quantity, material specification, and Agra delivery requirements.
             </p>
 
             {/* Action buttons */}
