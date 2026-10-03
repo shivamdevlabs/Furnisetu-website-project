@@ -46,7 +46,6 @@ mr-office/
 │   │   ├── schemas/        # Pydantic v2 request/response models
 │   │   └── main.py         # FastAPI app factory & lifespan
 │   ├── tests/              # Verification test suites
-│   ├── .env.example        # Backend environment template
 │   ├── requirements.txt    # Python dependencies
 │   └── venv/               # Isolated virtual environment
 ├── frontend/
@@ -60,7 +59,6 @@ mr-office/
 │   │   ├── App.jsx         # Root component & routing
 │   │   ├── main.jsx        # App mounting
 │   │   └── index.css       # Tailwind v4 theme setup
-│   ├── .env.example        # Frontend environment template
 │   ├── package.json        # Node dependencies & scripts
 │   └── vite.config.js      # Vite configuration with @tailwindcss/vite
 ├── .gitignore              # Repository git ignore rules
@@ -101,8 +99,7 @@ source venv/bin/activate
 # Install dependencies
 pip install -r requirements.txt
 
-# Copy environment configuration
-cp .env.example .env
+# Create and configure your local .env file
 
 # Seed initial admin, business settings, and catalog (runs once):
 python -m app.database.seed
@@ -123,8 +120,7 @@ cd frontend
 # Install dependencies
 npm install
 
-# Copy environment configuration
-cp .env.example .env
+# Configure environment in .env if needed
 
 # Run development server
 npm run dev

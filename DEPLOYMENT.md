@@ -132,9 +132,8 @@ If hosting on an AWS EC2, DigitalOcean Droplet, or Linode VPS:
 
 3. **Configure Production `.env`:**
    ```bash
-   cp .env.example .env
    nano .env
-   # Update MONGODB_URI, JWT_SECRET, CORS_ORIGINS, and strong admin password
+   # Create and configure MONGODB_URI, JWT_SECRET, CORS_ORIGINS, and strong admin password
    python -m app.database.seed
    ```
 
