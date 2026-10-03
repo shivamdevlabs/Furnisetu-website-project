@@ -65,6 +65,7 @@ Thumbs.db
 
 # Database / uploads
 data/
+mongodb-bin/
 uploads/
 scratch/
 tmp/
