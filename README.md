@@ -77,7 +77,15 @@ mr-office/
 - Python 3.10+ (Python 3.14 tested and verified)
 - MongoDB instance (local or MongoDB Atlas connection string)
 
-### 1. Backend Setup
+### 1. Database Setup (Local)
+A portable MongoDB server is included for 1-click local startup:
+```bash
+# On Windows, run:
+./start-mongodb.bat
+```
+MongoDB Compass can connect directly to `mongodb://localhost:27017` to inspect `mr_office_db`.
+
+### 2. Backend Setup
 ```bash
 cd backend
 
@@ -96,8 +104,11 @@ pip install -r requirements.txt
 # Copy environment configuration
 cp .env.example .env
 
-# Run verification tests
-python tests/test_phase1.py
+# Seed initial admin, business settings, and catalog (runs once):
+python -m app.database.seed
+
+# Run automated tests
+pytest -v
 
 # Start development server
 uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
@@ -105,7 +116,7 @@ uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
 Backend API will be running at: `http://localhost:8000`
 Interactive Swagger Docs: `http://localhost:8000/api/docs`
 
-### 2. Frontend Setup
+### 3. Frontend Setup
 ```bash
 cd frontend
 
@@ -125,6 +136,13 @@ Frontend will be running at: `http://localhost:5173`
 
 ---
 
+## Admin Portal & Default Credentials
+- **Admin Login URL:** `http://localhost:5173/admin/login`
+- **Default Email:** `admin@mroffice.in`
+- **Default Password:** `Admin@Shivam142` *(or as set in `backend/.env`)*
+
+---
+
 ## Security Practices
 - **Never commit `.env` files** or database credentials to version control.
 - **Passwords are hashed** with bcrypt salt before saving to MongoDB.
@@ -132,3 +150,10 @@ Frontend will be running at: `http://localhost:5173`
 - **Role-based authorization** ensures only admin accounts can access administrative actions.
 - **CORS** is strictly bounded to allowed frontend origins.
 - **Input validation** is enforced on all endpoints via Pydantic v2.
+
+---
+
+## Developer Credit
+- **Developed by:** [Shivam Srivastava](https://shivam-srivastava-portfolio.vercel.app/)
+- **Portfolio:** [https://shivam-srivastava-portfolio.vercel.app/](https://shivam-srivastava-portfolio.vercel.app/)
+- **Business:** Mr. Office (Agra, Uttar Pradesh, India)
