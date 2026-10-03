@@ -1,6 +1,6 @@
 # FURNISETU — Full-Stack Furniture Business Platform
 
-A modern, production-grade full-stack web platform built for **FURNISETU**, a premier furniture business located in **Agra, Uttar Pradesh, India**.
+A modern, production-grade full-stack web platform built for **FURNISETU**, a premier furniture business.
 
 FURNISETU specializes in order-based furniture procurement and supply, primarily focused on:
 - **Office Furniture** (Workstations, Executive Desks, Conference Tables, Ergonomic Chairs, Storage)
@@ -156,4 +156,4 @@ Frontend will be running at: `http://localhost:5173`
 ## Developer Credit
 - **Developed by:** [Shivam Srivastava](https://shivam-srivastava-portfolio.vercel.app/)
 - **Portfolio:** [https://shivam-srivastava-portfolio.vercel.app/](https://shivam-srivastava-portfolio.vercel.app/)
-- **Business:** FURNISETU (Agra, Uttar Pradesh, India)
+- **Business:** FURNISETU
