@@ -77,16 +77,16 @@ export default function Contact() {
   return (
     <div className="space-y-16 pb-20">
       {/* Header Banner */}
-      <section className="bg-brand-navyDark text-white py-16 px-4 sm:px-6">
+      <section className="bg-[#0F172A] text-white py-16 px-4 sm:px-6 border-b border-slate-800">
         <div className="max-w-4xl mx-auto text-center space-y-3">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 text-xs font-semibold text-slate-300">
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 border border-white/20 text-xs font-semibold text-slate-200">
             <MapPin className="w-3.5 h-3.5 text-brand-red" />
             <span>Agra Operations & Consultation</span>
           </div>
-          <h1 className="text-3xl sm:text-5xl font-black tracking-tight text-white">
+          <h1 className="text-3xl sm:text-5xl font-black tracking-tight text-white drop-shadow-xs">
             Contact Mr. Office
           </h1>
-          <p className="text-base sm:text-lg text-slate-300 max-w-xl mx-auto">
+          <p className="text-base sm:text-lg text-slate-200 max-w-xl mx-auto">
             Discuss your furniture requirements, ask questions, or request an itemized quotation for your space in Agra.
           </p>
         </div>

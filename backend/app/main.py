@@ -81,7 +81,8 @@ async def health_check():
         "environment": settings.ENVIRONMENT,
         "database": {
             "status": "connected" if db_alive else "disconnected",
-            "name": settings.DATABASE_NAME
+            "name": settings.DATABASE_NAME,
+            "mode": "live_mongodb" if not db_manager.is_fallback else "embedded_dev_fallback"
         }
     }
 

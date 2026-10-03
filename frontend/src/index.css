@@ -3,10 +3,47 @@
 @theme {
   --color-brand-red: #D32F2F;
   --color-brand-red-dark: #B71C1C;
+  --color-brand-redDark: #B71C1C;
   --color-brand-red-light: #FFEBEE;
+  --color-brand-redLight: #FFEBEE;
+  
   --color-brand-navy: #1E295A;
   --color-brand-navy-dark: #0F172A;
+  --color-brand-navyDark: #0F172A;
   --color-brand-navy-light: #F0F3FA;
+  --color-brand-navyLight: #F0F3FA;
+}
+
+/* Explicit color utilities to guarantee dark backgrounds in Tailwind v4 */
+.bg-brand-navyDark,
+.bg-brand-navy-dark {
+  background-color: #0F172A !important;
+}
+
+.bg-brand-navy {
+  background-color: #1E295A !important;
+}
+
+.bg-brand-red {
+  background-color: #D32F2F !important;
+}
+
+.bg-brand-redDark,
+.bg-brand-red-dark {
+  background-color: #B71C1C !important;
+}
+
+.text-brand-navyDark,
+.text-brand-navy-dark {
+  color: #0F172A !important;
+}
+
+.text-brand-navy {
+  color: #1E295A !important;
+}
+
+.text-brand-red {
+  color: #D32F2F !important;
 }
 
 @layer base {
