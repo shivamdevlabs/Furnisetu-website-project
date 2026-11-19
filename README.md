@@ -1,4 +1,4 @@
-# FURNISETU — Full-Stack Furniture Business Platform
+# FURNISETU — Full-Stack Furniture Website
 
 A modern, production-grade full-stack web platform built for **FURNISETU**, a premier furniture business.
 
