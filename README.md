@@ -36,7 +36,7 @@ FURNISETU specializes in order-based furniture procurement and supply, primarily
 ## Project Structure
 
 ```text
-mr-office/
+furnisetu/
 ├── backend/
 │   ├── app/
 │   │   ├── core/           # Config, bcrypt security, logging
@@ -134,7 +134,7 @@ Frontend will be running at: `http://localhost:5173`
 
 ## Admin Portal & Default Credentials
 - **Admin Login URL:** `http://localhost:5173/admin/login`
-- **Default Email:** `admin@mroffice.in`
+- **Default Email:** `admin@furnisetu.in`
 - **Default Password:** `Admin@Shivam142` *(or as set in `backend/.env`)*
 
 ---

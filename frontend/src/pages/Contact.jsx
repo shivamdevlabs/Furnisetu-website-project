@@ -150,7 +150,7 @@ export default function Contact() {
                   <h3 className="text-sm font-bold text-slate-900">Chat on WhatsApp</h3>
                   <p className="text-xs text-slate-600 mt-1">Send floor plans, room photos & specs</p>
                   <a
-                    href={`https://wa.me/${cleanWhatsapp}?text=Hello%20Mr.%20Office,%20I%20have%20a%20furniture%20requirement%20in%20Agra.`}
+                    href={`https://wa.me/${cleanWhatsapp}?text=Hello%20Furnisetu,%20I%20have%20a%20furniture%20requirement%20in%20Agra.`}
                     target="_blank"
                     rel="noreferrer"
                     className="inline-block mt-1 text-sm font-bold text-emerald-700 hover:underline"

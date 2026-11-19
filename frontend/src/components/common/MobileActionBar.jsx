@@ -21,7 +21,7 @@ export default function MobileActionBar() {
 
       {/* WhatsApp Button */}
       <a
-        href={`https://wa.me/${cleanWhatsapp}?text=Hello%20Mr.%20Office,%20I%20would%20like%20to%20enquire%20about%20furniture%20in%20Agra`}
+        href={`https://wa.me/${cleanWhatsapp}?text=Hello%20Furnisetu,%20I%20would%20like%20to%20enquire%20about%20furniture%20in%20Agra`}
         target="_blank"
         rel="noreferrer"
         className="flex-1 py-2.5 px-2 rounded-xl bg-emerald-600 text-white font-bold text-xs flex items-center justify-center gap-1.5 hover:bg-emerald-700 active:scale-95 transition"

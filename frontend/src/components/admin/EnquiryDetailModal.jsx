@@ -132,7 +132,7 @@ export default function EnquiryDetailModal({
                 </div>
                 <div className="flex items-center gap-1">
                   <a
-                    href={`https://wa.me/${cleanPhone.replace('+', '')}?text=Hello%20${encodeURIComponent(enquiry.customer_name)},%20this%20is%20Mr.%20Office%20regarding%20your%20furniture%20enquiry.`}
+                    href={`https://wa.me/${cleanPhone.replace('+', '')}?text=Hello%20${encodeURIComponent(enquiry.customer_name)},%20this%20is%20Furnisetu%20regarding%20your%20furniture%20enquiry.`}
                     target="_blank"
                     rel="noreferrer"
                     className="p-1.5 rounded-lg bg-emerald-50 text-emerald-600 hover:bg-emerald-100"

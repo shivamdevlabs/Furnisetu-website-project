@@ -19,7 +19,7 @@ export default function AdminLayout() {
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const location = useLocation();
   const navigate = useNavigate();
-  const user = api.auth.getUser() || { name: 'Admin', email: 'admin@mroffice.in' };
+  const user = api.auth.getUser() || { name: 'Admin', email: 'admin@furnisetu.in' };
 
   const handleLogout = () => {
     api.auth.logout();
@@ -146,7 +146,7 @@ export default function AdminLayout() {
           <div className="flex items-center gap-3">
             <div className="hidden sm:flex flex-col text-right">
               <span className="text-xs font-bold text-slate-900">{user.name || 'Admin'}</span>
-              <span className="text-[11px] text-slate-400">{user.email || 'admin@mroffice.in'}</span>
+              <span className="text-[11px] text-slate-400">{user.email || 'admin@furnisetu.in'}</span>
             </div>
             <div className="w-9 h-9 rounded-full bg-brand-navyLight text-brand-navy flex items-center justify-center border border-slate-200 font-bold text-xs">
               <User className="w-4 h-4" />

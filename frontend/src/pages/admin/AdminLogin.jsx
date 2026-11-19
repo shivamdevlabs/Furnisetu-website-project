@@ -93,7 +93,7 @@ export default function AdminLogin() {
                   required
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
-                  placeholder="admin@mroffice.in"
+                  placeholder="admin@furnisetu.in"
                   className="w-full pl-10 pr-3.5 py-2.5 rounded-xl border border-slate-300 text-xs sm:text-sm focus:outline-none focus:border-brand-red focus:ring-2 focus:ring-red-100 transition"
                 />
                 <Mail className="w-4 h-4 text-slate-400 absolute left-3.5 top-3" />

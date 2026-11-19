@@ -238,7 +238,7 @@ export default function ProductDetail() {
               </button>
 
               <a
-                href={`https://wa.me/${cleanWhatsapp}?text=Hello%20Mr.%20Office,%20I%20would%20like%20to%20enquire%20about%20"${encodeURIComponent(product.name)}"%20for%20delivery%20in%20Agra.`}
+                href={`https://wa.me/${cleanWhatsapp}?text=Hello%20Furnisetu,%20I%20would%20like%20to%20enquire%20about%20"${encodeURIComponent(product.name)}"%20for%20delivery%20in%20Agra.`}
                 target="_blank"
                 rel="noreferrer"
                 className="py-3 px-4 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white text-xs sm:text-sm font-bold transition flex items-center justify-center gap-2 active:scale-95"
